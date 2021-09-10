@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+* { 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/* Nav bar start */
+.navBar{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    background-color: #E9F7FE;
+    box-shadow: 0px 16px 40px rgb(112, 144, 176 , .2);
+    width: 100%;
+    height: 80px;
+    padding-left: 56px;
+    padding-top: 12px;
+    vertical-align: middle;
+    font-family: 'Poppins';
+    
+}
+.logo{
+    width: 162px;
+    height: 56px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.verticalLine{
+    display: inline-block;
+    height: 24px;
+    margin-top: 12px;
+    margin-left: 104px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51, .5);
+    
+}
+.seconVeticalLine{
+    margin-left: 40px;
+    margin-top: 12px;
+}
+.Tab{
+    display: inline-block;
+    margin: 8px 0px 13px 40px;
+    padding-bottom: 25px;
+    color: rgb(51, 51, 51, .7);
+    font-size: 20px;
+    font-weight: 600; 
+}
+.activeTab{
+    display: inline-block;
+    width: 64px;
+    height: 28px;
+    color: #4BBEF7;
+    font-size: 20px;
+    padding-top: 0;
+    margin-left: 40px;
+    
+}
+.Tab > select{
+    background-color: transparent;
+    border-style: none;
+    color: rgb(51, 51, 51, .7);
+    margin-left: 8px;
+}
+
+.searchBar{
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(75, 190, 247, 0.12),  rgb(156, 157, 254, 0.12));
+    border-color: #707070;
+    font-size: 16px;
+    color: #9DA9BE;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-bottom: 13px;
+    margin-left: 40px;
+    width: 476px;
+    height: 48px;
+    padding: 12px;
+}
+.searchBar > img{
+    float: left;
+    margin: 0px 12px ;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
+.addBtn{
+    width: 240px;
+    height: 40px;
+    margin-left: 39px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #4BBEF7, #9C9DFE);
+    box-shadow: 0px 3px 6px rgb(0, 0, 0, 0.16);
+    display: inline-block;
+    color: #FFFFFF;
+    line-height: 25px;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 9px 0px 0px 28px;
+}
+.icons{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: #707070 1px;
+}
+.addIcon{
+    
+    background-image: url('../img/addIcon.png');
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+
+}
+
+.bell-main-Div{
+    margin-left: 86px;
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: rgb(0, 172, 245, 0.1);
+    padding: 3px 0px;
+} 
+.bell-inner-Div{
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    margin: auto;
+    background-image: linear-gradient(to right ,rgb(68, 172, 245, 0.15), rgb(128, 128, 255, 0.15));
+}
+
+.bellIcon{
+   width: 24px;
+   height: 24px;
+   margin: 12px;
+   background-image: url('../img/bellIcon.png');
+}
+
+.pic-main-div{
+    width: 64px;
+    height: 64px;
+    border-radius: 30px;
+    background-color: #E5F7FE;
+    border: #9C9DFE 2px solid;
+    margin-left: 40px;
+    padding: 3px 0px;
+}
+
+.pic-inner-div{
+    margin: auto;
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    background-image: url('../img/profilepic.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.navBar>select{
+    margin-left: 4px;
+    width: 24px;
+    height: 24px;
+    color: #333333;
+    border: none;
+    background-color: transparent;
+    margin-top: 16px;
+    margin-left: 4px;
+
+}
+/* End of nav bar */
+
+.main-container{
+    padding: 24px 246px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 339px 1065px;
+    background-color: #EEF0FC;
+    grid-gap: 24px;
+}
+

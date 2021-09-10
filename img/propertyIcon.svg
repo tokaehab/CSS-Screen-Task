@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #8a8f93;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18939" data-name="Rectangle 18939" class="cls-1" width="16" height="16" transform="translate(254 794)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_553" data-name="Mask Group 553" class="cls-2" transform="translate(-254 -794)">
+    <path id="icons8_home_1" class="cls-3" d="M10,1.333a.667.667,0,0,0-.466.19L2.262,7.471l-.025.02-.025.021h0a.666.666,0,0,0,.454,1.154h.667V16a1.333,1.333,0,0,0,1.333,1.333H15.333A1.333,1.333,0,0,0,16.667,16V8.667h.667a.667.667,0,0,0,.454-1.155l-.01-.008q-.022-.02-.046-.038L16.667,6.6V4A.667.667,0,0,0,16,3.333h-.667A.667.667,0,0,0,14.667,4v.96L10.452,1.512A.667.667,0,0,0,10,1.333ZM12,10h2.667v5.333H12Z" transform="translate(252 792.667)"/>
+  </g>
+</svg>

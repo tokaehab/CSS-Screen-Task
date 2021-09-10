@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../fonts/Poppins/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'Roboto-light';
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+.coverPicDiv{
+    width: 100%;
+    height: 360px;
+    background-image: url('../img/coverPic.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.TitleP{
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 30px;
+    color: #46494C;
+    margin-top: 24.6px;
+    margin-left: 24px;
+}
+.aboutP{
+    margin-left: 38px;
+    margin-top: 24.4px;
+    font-family: 'Poppins-light';
+    font-size: 14px;
+    line-height: 21px;
+    color: #8A8F93;
+    width: 927px;
+    height: 126px;
+}
+.overviewPoints{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    color: #8A8F93;
+    display: flex;
+    margin-left: 47px;
+    margin-top: 24px;
+}
+.overviewIcons{
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    margin-top: 2px;
+}
+.clockIcon{
+    background-image: url('../img/clockIcon.svg');
+}
+.agentsIcon{
+    background-image: url('../img/agentsIcon.svg');
+}
+.houseIcon{
+    background-image: url('../img/houseIcon.svg');
+}
+.summarySections{
+    margin-left: 79px;
+    margin-top: 16px;
+    width: 250px;
+    height: 35px;
+    font-size: 12px;
+    font-family: 'Poppins';
+    line-height: 18px;
+    color: #8A8F93;
+    display: inline-block;
+}
+
+.num{
+    color: #2F3F58;
+}
+.verticalLineDiv{
+    width: 2px;
+    height: 27px; 
+    border-radius: 20px; 
+    background-color: #FFFFFF; 
+    margin-left: 23px;
+    margin-right: 23px;
+    display: inline-block;
+}
+.servicesCards{
+    margin-left: 47px;
+    font-family: 'Roboto-light';
+    font-size: 12px;
+    color: #8080FF;
+    line-height: 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.serviceCard{
+    background-color: #F9FAFE;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgb(0, 0, 0. 0.08);
+    display: inline;
+    padding: 4px 16px;
+    margin-right: 8px;
+}
+.contactsSection{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #8A8F93;
+    line-height: 21px;
+    margin-left: 47px;
+    margin-top: 24px;
+}
+.locIcon{
+    background-image: url('../img/locIcon.svg');
+}
+.greywwwIcon{
+    background-image: url('../img/greywwwIcon.svg');
+}
+.greyCallIcon{
+    background-image: url('../img/greyCallIcon.svg');
+}
+.socialMediaDiv{
+    background-color: #EFF8FE;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgb(0, 0, 0. 0.08);
+    margin-left: 47px;
+    margin-top: 16px;
+    display: inline-block;
+}
+.socialMediaIcons{
+    margin-top: 8px;
+    margin-right: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+}
